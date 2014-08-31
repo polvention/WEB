@@ -1,0 +1,33 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+
+.divSideMenu
+{
+    margin-left:5px;
+    height:100%;
+    width:250px;
+    border-radius:10px;
+   /* background-color:#001F3D;*/
+    background-color:#001121;
+}
+
+li
+{
+    display:inline;
+}
+
+.menu
+{
+    display:block;
+    width:250px;
+    height:60px;
+    text-align:center;
+    font-size:20px;
+    line-height:60px;
+    text-decoration: none;
+    color:#B2BCC5;
+    border-radius:10px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}

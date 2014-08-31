@@ -1,0 +1,95 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+
+.topBar
+{
+    position:absolute;
+    top:5px;
+    height:50px;
+    width:100%;
+}
+
+li
+{
+    float:left;
+    display:inline;
+}
+
+li#logo
+{
+    margin-left:5px;
+    width:250px;
+    height:50px;
+    border-radius:10px;
+    text-align:center;
+    background:#000013;
+    color:#B2BCC5;
+    line-height:50px;
+}
+
+div.topBarMenu
+{
+    opacity:0.7;
+    margin-left:calc(100% - 10px - 3 * 100px - 218px - 10px);
+    padding-left:10px;
+    width:520px;
+    height:50px;
+    background-color:#001121;
+    border-radius:10px;
+    /* 10px right radius, 3 menu item x 100, search 218, 15 right padding*/
+}
+
+.menu
+{
+    display:block;
+    width:100px;
+    height:50px;
+    text-align:center;
+    font-size:16px;
+    line-height:50px;
+    text-decoration: none;
+    color:#B2BCC5;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+.menuSearch
+{
+    width:218px;
+    height:47px;
+    border:1px solid #000013;
+    background-color:#000013;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+.searchForm
+{
+    height:35px;
+    width:204px;
+    margin-left:8px;
+    margin-top:6px;
+    background:#4D5864;
+    border-radius:10px;
+}
+
+.searchShape
+{
+    float:left;
+    margin-top:10px;
+    width:170px;
+    background:#4D5864;
+    outline:0;
+    border:none;
+    color:#B2BCC5;
+    font-size:16px;
+    text-indent:10px;
+}
+
+img#searchIcon
+{
+    margin-top:5px;
+    width:25px;
+    height:25px;
+}
